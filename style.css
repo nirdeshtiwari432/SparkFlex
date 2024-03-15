@@ -1,7 +1,7 @@
 
  
 html,body{
-    background: url(bg.png.jpg);
+    background: url(bg.jpg);
    
     scroll-behavior: smooth;
     height: 100%;
@@ -150,7 +150,7 @@ li a {
 }
  
 #Creg{
-    color: rgb(23, 158, 41);
+    color: rgb(5, 231, 24);
     font-size: 30px;
     font-family: sans-serif;
     margin: 0px,0px,6px;
