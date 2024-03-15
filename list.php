@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<link rel="stylesheet" type="" href="style.css">> 
+<link rel="stylesheet" type="" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home Page</title>
@@ -61,7 +61,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login Page</title>
-<<link rel="stylesheet" type="" href="style.css">> 
+<link rel="stylesheet" type="" href="style.css">
 </head>
 <body id = "BODY">
 
