@@ -101,12 +101,12 @@
         echo "<?table>";
         
     }else{
-        header("Location:index2.html");
+        header("Location:");
         exit();
 }
 
 
-$conn->close();
+
     }
     ?> 
    
@@ -136,7 +136,7 @@ if($result2->num_rows>0){
     echo "<?table>";
     exit(); 
 }else{
-    header("Location:index2.html");
+    header("Location:");
     exit();
 }
 

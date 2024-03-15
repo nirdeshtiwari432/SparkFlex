@@ -10,7 +10,7 @@ if($conn->connect_error){
 }
 
 else{
-    $stmt = $conn->prepare("insert into p (h_id,p_name,p_adhar,p_problem,day)
+    $stmt = $conn->prepare("insert into p(h_id,p_name,p_adhar,p_problem,day)
     values(?,?,?,?,?)");
     $stmt->bind_param("sssss",$h_id,$p_name,$p_adhar,$p_problem,$day);
     $stmt->execute();

@@ -8,7 +8,7 @@
 </head>
 <body id = "BODY">
 
-<input type="button" onclick="location.href='editinfo.html';" value="Contact" />
+<input type="button" onclick="location.href='editinfo.html';" value="Add doctor" />
 
 <table> 
    <tr>
@@ -32,7 +32,7 @@
     if($result->num_rows>0){
         while ($row = $result->fetch_assoc()) {
             
-            echo "<tr><td>". $row["p_name"] ."</td><td>". "</td><td>" ."</td><td>". $row["Mobile_Number"]."</td><td>"."</td><td>" . $row["p_problem"]."</td><td>". "</td><td>" . $row["day"] ."</td></tr>";
+            echo "<tr><td>". $row["p_name"] ."</td><td>". "</td><td>" ."</td><td>". $row["p_adhar"]."</td><td>"."</td><td>" . $row["p_problem"]."</td><td>". "</td><td>" . $row["day"] ."</td></tr>";
         }
         echo "<?table>";
         exit(); 
