@@ -99,7 +99,7 @@ nav {
      font-weight: bold;
     color: #fff;
     padding: 10px 20px;
-     +
+     
 }
 
 ul {
@@ -148,6 +148,7 @@ li a {
     position: relative;
    margin-right: 17px;
    margin-top: 30px;
+   display: inline-
     
 }
  
