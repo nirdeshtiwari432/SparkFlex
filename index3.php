@@ -7,6 +7,9 @@
 <<link rel="stylesheet" type="" href="style.css">> 
 </head>
 <body id = "BODY">
+
+<input type="button" onclick="location.href='editinfo.html';" value="Contact" />
+
 <table> 
    <tr>
    <<th>p_name</th>
@@ -41,6 +44,7 @@ $conn->close();
 
 ?>
 </table>
+    <button type="button"  herf = "edit_info.html">EDIT INFO</button>
 
      
     <a href="index.html">Back to Home</a>

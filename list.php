@@ -64,6 +64,8 @@
 <<link rel="stylesheet" type="" href="style.css">> 
 </head>
 <body id = "BODY">
+
+
 <table> 
    <tr>
    <<th>h_name</th>
@@ -71,6 +73,8 @@
     <th>h_status</th>
     <th>h_id</th>
 </tr>
+
+
 
  <?php
    
@@ -85,24 +89,60 @@
         die('connection failed :'.$conn->connect_error);
     }
     $query ="SELECT h_id,city,hospital_name,h_status  FROM resistration_h WHERE city = '$city'";
+    $query2 ="SELECT * FROM avaliable_dr";
     $result = $conn->query($query);
+    $result2 = $conn->query($query2);
+    
     if($result->num_rows>0){
         while ($row = $result->fetch_assoc()) {
             
             echo "<tr><td>". $row["hospital_name"] ."</td><td>" ."</td><td>". $row["city"] .$row["h_id"] .$row["h_status"] ."</td></tr>";
         }
         echo "<?table>";
-        exit(); 
+        
     }else{
         header("Location:index2.html");
         exit();
 }
+
+
 $conn->close();
     }
-    ?>
+    ?> 
    
 </table>
+<table> 
+   <tr>
+   <<th>dr_name</th>
+    <th>phone</th>
+    <th>specialization</th>
+    <th>experience</th>
+    <th>age</th>
+    <th>status</th>
+    <th>hospital</th>
+</tr>
 
+<?php
+
+
+
+
+
+if($result2->num_rows>0){
+    while ($row = $result2->fetch_assoc()) {
+    
+        echo "<tr><td>". $row["dr_name"] ."</td><td>" ."</td><td>". $row["phone"]. "</td><td>" ."</td><td>".$row["specialization"]."</td><td>" ."</td><td>" .$row["experience"] ."</td><td>" ."</td><td>" .$row["status"]."</td><td>" ."</td><td>" .$row["hospital"] ."</td></tr>";
+    }
+    echo "<?table>";
+    exit(); 
+}else{
+    header("Location:index2.html");
+    exit();
+}
+
+
+?>
+</table>
      
     <a href="index.html">Back to Home</a>
 </div>
