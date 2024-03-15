@@ -33,7 +33,7 @@
   The XAMPP Control Panel allows you to manually start and stop Apache and MySQL. To start Apache or MySQL manually, click the ‘Start’ button under ‘Actions’.
   
 ## GETTING INTO THE PROJECT:
-Hospital Management System in php and mysql. This system has a ‘Home’ page from where the patient, hospital administrator can login into their accounts by toggling the tabs accordingly. Fig 1.1 shows the ‘Home’ page of our project.
+Hospital Management System in php and mysql. This system has a ‘Home’ page from where the patient, hospital administrator can login into their accounts by toggling the tabs accordingly.shows the ‘Home’ page of our project.
 
 !
 
@@ -56,47 +56,23 @@ The Dashboard page allows patients the perform one operations:
 
 **1. Book his/her appointment:**
 
-  &nbsp; &nbsp; &nbsp; Here, the patients can able to book their appointments to see a doctor. The appointment form requires patients to select the doctor that they want to see, Date and Time that they want to meet with the doctor. The consultancy fee will be shown accordingly to the patient as it was already determined by the doctor.
+  &nbsp; &nbsp; &nbsp; Here, the patients can able to book their appointments to see a doctor. The appointment form requires patients to select the doctor that they want to see, Date and Time that they want to meet with the doctor. 
 
 
-
-After clicking on the ‘Create new entry’ button, the patient will receive an alert that acknowledges the successful appointment of the patient.
 
 Once the patient has logged out of his account, if he wants to go into his account again, he can login his account, instead of register his account again. 
 Clicking on ‘Login’ button will redirect the patient to his dashboard page which we have seen earlier 
 
 **1. see the nearby hospital status and details:**
 
-This is how the patient module works. On the whole, this module allows patients to register their account or login their account(if he/she has one), book an appointment in nearby hospital.
+This is how the patient module works. On the whole, this module allows patients to register their account or login their account(if he/she has one), book an appointment in nearby hospital and get details about hospital and doctors 
+for examlpe how many bed  are booked and which doctor is present today .
 
-### Doctor Module:
-
-  &nbsp; &nbsp; &nbsp; The doctors can login into their account which can be done by toggling the tab from ‘Patient’ to ‘Doctor’. Fig 1.10 shows the login form for a doctor. Registration of a doctor account can be done only by admin.
+### Hospital Module:  &nbsp; &nbsp; &nbsp; The hospital can login into their account which can be done by toggling the tab from ‘Patient’ to ‘hospital’.shows the login form for a doctor. Registration of a doctor account can be done by hospital.
   
+Once the doctor clicking the ‘Login’ button, they will redirected to main page
 
-
-Once the doctor clicking the ‘Login’ button, they will be redirected to their own dashboard which is shown in Fig 1.11
-
-
-
-In this page, doctor can able to see their appointments which has been booked by the patients. Fig 1.12 shows the appointment of the doctor ‘Ganesh’ which has been booked by the patient ‘Kenny Sebastian’ (Fig 1.6). This means that the doctor ‘Ganesh’ will have an appointment with the patient ‘Kenny Sebastian’ on 10-10-2019 10AM. 
-
-
-
-In real-time, the doctors will have thousands of appointments. It will be easier for a doctor to search for appointment in the case of more appointments. To make it easier, I have a ‘Search’ box in the navigation bar (See Fig 1.12) which allows doctors to search for a patient by their contact number.
 &nbsp; &nbsp; &nbsp; Once everything is done, the doctor can logout of their account. Thus, in general, a doctor can login into his/her account, view their appointments and search for a patient. This is all about Doctor Module.
-
-### Admin Module:
-   
-   &nbsp; &nbsp; &nbsp; This module is the heart of our project where an admin can see the list of all patients. Doctors and appointments and the feedback/queries received from the ‘Contact’ page. Also admin can add doctor too. 
-  &nbsp; &nbsp; &nbsp; Login into admin account can be done by toggling into admin tab of the Home page. Fig 1.13 shows the login page for admin.
-  &nbsp; &nbsp; &nbsp; `username`: admin, `password`: admin123
-
-
-
-On clicking the ‘Login’ button, the admin will be redirected to his/her dashboard as shown in 
-Fig 1.14.
-
 
 
 This module allows admin to perform two major operations:
