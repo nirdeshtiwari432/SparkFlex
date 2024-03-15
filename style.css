@@ -5,7 +5,7 @@ html,body{
    
     scroll-behavior: smooth;
     height: 100%;
-    background-size: auto;
+    background-position: 100px;
 }
 *{
     margin: auto;
@@ -99,6 +99,7 @@ nav {
      font-weight: bold;
     color: #fff;
     padding: 10px 20px;
+     +
 }
 
 ul {
@@ -118,6 +119,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   
 }
 
 
@@ -179,10 +181,20 @@ label{
 input{
     color: #B6BABE;
     font-size: 16px;
-    font-weight: 400
+    font-weight: 400;
 }
-
-
-
-
-
+#loginform{
+    display: flex;
+    background-color: white;
+    height: 480px;
+    width: 450px;
+    position: relative;
+    justify-content: center;
+}
+.content{
+    font-size: 35px;
+    color: rgb(13, 104, 223);
+    margin-top: 50px;
+    display: flex;
+    display: inline-block;
+}
