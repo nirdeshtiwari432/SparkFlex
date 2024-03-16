@@ -9,6 +9,7 @@
 <body id = "BODY">
 
 <input type="button" onclick="location.href='editinfo.html';" value="Add doctor" />
+<input type="button" onclick="location.href='editinfo1.html';" value="change status" />
 
 <table> 
    <tr>
@@ -46,7 +47,17 @@ $conn->close();
 </table>
     <button type="button"  herf = "edit_info.html">EDIT INFO</button>
 
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <body>
      
+     
+    
+    
+     </body>
+     </body>
+     </html>
     <a href="index.html">Back to Home</a>
 </div>
 
